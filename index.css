@@ -1,5 +1,84 @@
-html, body {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&family=Source+Sans+Pro:wght@300;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: grey;
 }
 
+main {
+  width: 375px;
+  height: 40px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  width: 375px;
+  height: 67px;
+  background: #fff;
+  padding-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.profile-img {
+  border-radius: 20px;
+  width: 34px;
+  height: 34px;
+  padding-left: 2px;
+  padding-right: 4px;
+}
+.user-image {
+  border-radius: 20px;
+  width: 34px;
+  height: 34px;
+  padding-left: 2px;
+  padding-right: 4px;
+}
+
+#vincent-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-image {
+  width: 127px;
+  height: 50px;
+  padding-right: 183px;
+  padding-left: 15px;
+}
+
+.post-img {
+  width: 375px;
+  height: 375px;
+  padding-top: 10px;
+}
+.main-post {
+  background: #fff;
+}
+.heart-icon,
+.comment-icon {
+  width: 30;
+  height: 30;
+}
+
+.new {
+  width: 30px;
+}
+.all-icons {
+  background: #fff;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+.caption{
+  background: #fff;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: source sans pro;
+  font-weight: 400;
+  font-size: 13px;
+
+}
